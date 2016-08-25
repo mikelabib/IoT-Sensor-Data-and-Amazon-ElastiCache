@@ -1,4 +1,4 @@
-Sensor-Data-with-AWS
+IoT Sensor Data Demo using Amazon ElastiCache for Redis, AWS IoT and AWS Lambda
 ====================
 This project illustrates how to ingest sensor data using AWS IoT platform, AWS Lambda and Amazon ElastiCache for Redis. The AWS IoT service makes it easy to securely connect devices to the cloud. Included in the AWS IoT platform is the Device Gateway which is a component that allows bi-directional low latency communication between  connected devices and AWS. The AWS IoT Rules engine is configured to trigger a AWS Lambda Node.js function (PersistSensorData.js) which will continously process and persist the IoT events into Amazon ElastiCache.
 
@@ -26,7 +26,7 @@ Zip up the PersistSensorData.js application along with the node_modules </br>
 Name the zipped artifact PersistSensorData.zip and upload it to AWS Lambda </br>
 Configure the AWS Lambda function to run in the same VPC as the ElastiCache for Redis cluster <br>
 
-###Run Sensor Emulator on your machine
+###Run Sensor Emulator on your machine or on EC2
 Download the temp-sensor.js Node.js application
 npm install aws-iot-device-sdk </br>
 npm install properties-reader </br>
