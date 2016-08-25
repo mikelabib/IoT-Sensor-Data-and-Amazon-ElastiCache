@@ -1,0 +1,9 @@
+
+host = IoT endpoint
+port = your-port
+clientId = your-client-id
+thingName = your-thing-name
+caPath = ./utils/ca-cert-file
+certPath = ./utils/cert-file
+keyPath = ./utils/key-file
+region =  region
