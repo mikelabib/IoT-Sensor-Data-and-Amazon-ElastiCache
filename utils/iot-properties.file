@@ -1,9 +1,0 @@
-
-host = 
-port = 8883
-clientId = SensorHub
-thingName = SensorHub
-caPath = ./utils/root-CA.crt
-certPath = ./utils/
-keyPath = ./utils/ 
-region = us-west-2 
